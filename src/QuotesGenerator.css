@@ -67,7 +67,7 @@
 /*  */
 .qoutesBox { 
     position: relative;
-    height: 550px;
+    height: 600px;
     width: 100%;
     /* background-image: url('https://images.alphacoders.com/209/209301.jpg'); */
     background-size: cover;
@@ -78,7 +78,7 @@
 
 .mainBox {
     position: absolute;
-    height: 500px;
+    height: 550px;
     width: 60%;
     margin-top: 10px;
     background: rgba(255, 255, 255, 0.1); 
