@@ -110,12 +110,12 @@ function QuoteGenerator() {
                 <div className='mainBox'>
                     <h1 style={{ color: 'red', textAlign: 'center' }}>Quotes</h1>
                     <div>
-                        <p style={{ color: 'white', textAlign: 'center', fontSize: '20px', margin: '20px 40px', fontWeight: 'bold' }}>{quotes?.quote}</p>
-                        <p style={{ color: 'white', textAlign: 'center', fontSize: '20px', margin: '20px 40px', fontWeight: 'bold' }}>Words by - {quotes?.author}</p>
-                        <img src={image} alt="" style={{height:'200px', width:'200px', marginLeft:'38%', borderRadius:'1rem'}}/>
+                        <p style={{ color: 'white', textAlign: 'center', fontSize: '18px', margin: '20px 40px', fontWeight: 'bold' }}>{quotetext}</p>
+                        <p style={{ color: 'white', textAlign: 'center', fontSize: '20px', margin: '20px 40px', fontWeight: 'bold' }}>- {author}</p>
+                        <img src={image} alt="" style={{height:'200px', width:'200px', borderRadius:'1rem'}}/>
                     </div>
-                    <div style={{marginTop:'10px'}}>
-                        <button className='clickbutton' onClick={refresh} >CLICK HERE</button>
+                    <div className='mt-3'>
+                        <button className='clickbutton' onClick={refresh} >CLICK HERE FOR NEXT</button>
                     </div>
                 </div>
             </div>

@@ -3,9 +3,10 @@ import React from 'react'
 function Header() {
     return (
         <>
-            <div style={{ background: 'black', height: '60px', width: '100%',color: 'red', textAlign:'center', paddingTop:'20px', fontSize:'30px' }}>
-                {/* <h1 style={{ color: 'red', fontSize: '30px', fontFamily: 'sans-serif', paddingTop: '10px', textAlign: 'center' }}>Random quotes generator</h1> */}
-                Random quotes generator
+            <div style={{ background: 'black', height: '100px', width: '100%',color: 'red', padding:'20px 0px'}}>
+                <div>
+                    <h2 style={{ height: '50px', width: '100%',color: 'red', textAlign:'center', fontSize:'35px',fontWeight:'bold' }}>RANDOM QUOTES GENERATOR</h2>
+                </div>
             </div>
         </>
     )
