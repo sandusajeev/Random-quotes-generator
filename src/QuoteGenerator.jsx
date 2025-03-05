@@ -115,7 +115,7 @@ function QuoteGenerator() {
                         <img src={image} alt="" style={{height:'200px', width:'200px', borderRadius:'1rem'}}/>
                     </div>
                     <div className='mt-3'>
-                        <button className='clickbutton' onClick={refresh} >CLICK HERE FOR NEXT</button>
+                        <button className='btn btn-success mt-3' onClick={refresh} >CLICK HERE FOR NEXT</button>
                     </div>
                 </div>
             </div>
